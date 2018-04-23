@@ -6,6 +6,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch)-Arrays-FindUnique<algo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.kalicut.datastructure.arrays.FindUnique",
+            "projectName": "algo",
+            "args": ""
+        },       {
+            "type": "java",
             "name": "Debug (Launch)-MyRecursiveLearning<algo>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

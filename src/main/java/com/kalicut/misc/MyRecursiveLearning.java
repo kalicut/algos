@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class MyRecursiveLearning {
 
-    static void printArray(int[] arry) {
+    public static void printArray(int[] arry) {
         //base case
         if (arry == null || arry.length == 0) {
             System.out.println();
@@ -17,7 +17,7 @@ public class MyRecursiveLearning {
         printArray(Arrays.copyOfRange(arry, 1, arry.length));
     }
 
-    static int factorial(int n) {
+    public static int factorial(int n) {
         // base case
         if (n < 2) {
             return 1;
@@ -27,7 +27,7 @@ public class MyRecursiveLearning {
         return n * factorial(n - 1);
     }
 
-    static String reverse(String s) {
+    public static String reverse(String s) {
         // base case
         if (s == null || s.length() < 2) {
             return s;
@@ -37,7 +37,7 @@ public class MyRecursiveLearning {
         return reverse(s.substring(1)) + s.charAt(0);
     }
 
-    static boolean palindrome(String s) {
+    public static boolean palindrome(String s) {
         // base case
         if (s == null || s.length() < 2) {
             return true;
@@ -56,7 +56,7 @@ public class MyRecursiveLearning {
         return true;
     }
 
-    static int power(int a, int b) {
+    public static int power(int a, int b) {
         // base case
         if (b == 0)
             return 1;
